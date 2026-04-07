@@ -12,3 +12,4 @@ def step_when(context):
 @then('ela deve existir')
 def step_then(context):
     assert context.result in get_disciplinas()
+#
