@@ -26,5 +26,5 @@ jobs:
       - name: Run Tests   
         run: |
           export PYTHONPATH=$PYTHONPATH:$(pwd)
-          python -m pytest --cov=. --cov-fail-under=1
+          python -m pytest --cov=. --cov-fail-under=75
         
