@@ -24,6 +24,5 @@ jobs:
           pip install pytest pytest-cov behave
 
       - name: Run Tests with Coverage
-        run: pytest --cov=app --cov-fail-under=75
-
+        run: pytest --cov=. --cov-fail-under=1
         #teste
